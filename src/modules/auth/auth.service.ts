@@ -56,6 +56,7 @@ export class AuthService {
         firstName: user.firstName,
         lastName: user.lastName,
         role: user.role,
+        isActive: user.isActive,
       },
       accessToken,
     };
@@ -94,6 +95,7 @@ export class AuthService {
         firstName: user.firstName,
         lastName: user.lastName,
         role: user.role,
+        isActive: user.isActive,
       },
       accessToken,
     };

@@ -33,6 +33,7 @@ export class AuthResponseDto {
     firstName: string;
     lastName: string;
     role: string;
+    isActive: boolean;
   };
   accessToken: string;
 }
